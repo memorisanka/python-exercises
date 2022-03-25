@@ -1,0 +1,5 @@
+def find_uniq(arr):
+    uniq = dict((x, arr.count(x)) for x in set(arr))
+    for key, value in uniq.items():
+        if value == 1:
+            return key
