@@ -1,0 +1,9 @@
+def remove_smallest(numbers):   
+    copy1 = numbers[:]
+    if len(copy1) == 0:
+        return []
+    else:
+        idx = copy1.index(min(copy1))
+        copy1.pop(idx)
+        return copy1
+    
