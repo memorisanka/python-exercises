@@ -1,0 +1,5 @@
+def invert(lst):
+    inverted_lst = []
+    for number in lst:
+        inverted_lst.append(number * (-1))
+    return inverted_lst
